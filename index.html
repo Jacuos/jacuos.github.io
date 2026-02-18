@@ -2,11 +2,12 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 <style>
 body{
-	font-family: Verdana,Arial;
-	color:#F1E9E9;
-	background-color:#15173D;
+	font-family: 'Open Sans',Verdana,Arial;
+	color:#ffffff;
+	background-color:#2d3250;
 	justify-content: center;
 	text-align: center;
 	max-width: 100%;
@@ -14,12 +15,16 @@ body{
 }
 h2{
 	text-align: center;
+		color:#f9b17a;
 }
 table { 
     margin-left: auto;
     margin-right: auto;
-	max-width:500px;
+	max-width:510px;
 	width:100%;
+}
+th, td {
+  padding-left: 10px;
 }
 .twoColumns {
   display: flex;
@@ -32,14 +37,30 @@ table {
 }
 .desc {
   	text-align: left;
+	font-size: 1.4rem;
 }
 .default{
 	color:#5A5A5A;
+}
+#particles-js{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.front-content
+{
+   z-index: 100;
+   /* whatever other style properties you want.  Apply this class to the div or other element you put your actual content in.*/
 }
 </style>
 </head>
 
 <body>
+<div id="particles-js"></div>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+<div class="front-content">
 <br>
 <font size ="20">
 <b>Jacek Kozieja - PORTFOLIO</b>
@@ -49,15 +70,13 @@ table {
 <div class="twoColumns">
 <img src="Resources/teamPhotoSmall.jpg" width="225" height="213.75">
 <div class="desc">
-<font size ="5">
 Hello, my name is Jacek.<br> 
-I'm a game developer.<br>
+I'm a game developer since 2017.<br>
 I use Unity engine.<br>
 Most of my professional experience<br>
 is in the mobile market.<br>
 Here are some of the games <br>
 that I have worked on in the past.
-</font>
 </div>
 </div>
 
@@ -72,7 +91,7 @@ that I have worked on in the past.
 </td>
 <td valign="top" align ="left">
 <font size ="2" >
-<b>BAG HEROES</b><br><br>
+<b>BAG HEROES</b><br>
 Bag Heroes is LIVE! Merge items, conquer dungeons! 
 Roguelike RPG adventure awaits! Download NOW!
 Dive into the chaotic world of Bag Heroes, where adventure meets inventory management 
@@ -104,7 +123,7 @@ Merge items to unlock their true potential and unleash devastating power against
 <font size ="2" >
 <b>MATCH HEROES - RPG</b><br><br>
 Match, fight, and conquer - one day at a time!
-<br><br>
+<br>
 Match Heroes – RPG is a thrilling blend of match puzzle gameplay, turn-based strategy, and roguelike survival. 
 Connect resources to launch powerful attacks, shield yourself, or unleash deadly effects as you fight through a 60-Day gauntlet full of mystery, monsters, and magical encounters.
 <br>
@@ -131,13 +150,13 @@ Puzzle Combat Reimagined
 </td>
 <td valign="top" align ="left">
 <font size ="2" >
-<b>BLOCKS BRAWL</b><br><br>
+<b>BLOCKS BRAWL</b><br>
 Outsmart Your Opponent in Real-Time Puzzle Duels!
 Blocks Brawl is a fast-paced, competitive puzzle game where every move counts. Face off in 1v1 matches and use smart strategy, bold blocks, and golden tile combos to take over the board.
 <br>
 Strategic 1v1 Puzzle Battles
-Take turns placing block-shaped tiles on a shared grid. You can only connect pieces by touching the edge of your own — not the corners. This unique rule adds depth, creativity, and blocking tactics.
-<br><br>
+Take turns placing block-shaped tiles on a shared grid. You can only connect pieces by touching the edge of your own — not the corners.
+<br><br><br>
 &nbsp; &nbsp; &nbsp; 
 <a href="https://play.google.com/store/apps/details?id=com.tapugo.blocksclash&hl=en" target="_blank">
 <img src="Resources/GooglePlayButton.png" width="180" height="54">
@@ -152,7 +171,7 @@ Take turns placing block-shaped tiles on a shared grid. You can only connect pie
 </tr>
 </table>
 
-
+<br><br>
 <h2>Orbital Knight</h2>
 
 <table border="0">
@@ -163,12 +182,11 @@ Take turns placing block-shaped tiles on a shared grid. You can only connect pie
 </td>
 <td valign="top" align ="left">
 <font size ="2" >
-<b>CRAZY KICK</b><br><br>
+<b>CRAZY KICK</b><br>
 Crazy kick is the first football game where you control the ball and not the players! Overtake your opponents, move swiftly and shoot goals! Dribble, pass and kick.
 <br>
 Have fun and show your football skills<br>
 Forget about traditional football games where you control 11 football players or play the soccer team manager. Here it's easy, you control the ball and can do crazy things to score!
-<br>
 Can you score goals and reach the football World Cup Final?
 <br><br>
 &nbsp; &nbsp; &nbsp; 
@@ -193,7 +211,7 @@ Can you score goals and reach the football World Cup Final?
 </td>
 <td valign="top" align ="left">
 <font size ="2" >
-<b>CASTLE WRECK</b><br><br>
+<b>CASTLE WRECK</b><br>
 In this game you get to shoot cannons, destroy castles and watch it all fall down! All from the safe space of your own mobile device.
 <br>
 Tap to aim horizontally, tap again to aim vertically and the cannon will shoot by itself.
@@ -225,11 +243,11 @@ Tap to aim horizontally, tap again to aim vertically and the cannon will shoot b
 <font size ="2" >
 <b>FORCE MASTER</b><br><br>
 Get a grasp on your surroundings, then throw it at your foes!
-<br> <br>
+<br> 
 Beat your enemies with other enemies! Throw explosive barrels on their heads! 
 <br>
 Grab platforms from under their feet!
-<br><br>
+<br>
 In our new action packed game you have control and freedom to deal with obstacles as you please. 
 <br>
 Become the ultimate force master!
@@ -264,7 +282,7 @@ Easy controls, awesome graphics and maximum satisfaction guaranteed!
 A quirky and oddly satisfying mobile game where you extract pimples with precision and flair. 
 <br><br>
 Master your technique, unlock new tools, and enjoy the strangely addictive thrill of clearing every blemish.
-<br><br><br><br><br><br>
+<br><br><br><br>
 &nbsp; &nbsp; &nbsp; 
 <a href="https://apps.apple.com/pl/app/pimple-popping/id1505572770" target="_blank">
 <img src="Resources/AppStoreButton.png" width="180" height="54">
@@ -308,13 +326,13 @@ Test your wits and skills, use all the tools at your disposal and you will emerg
 <font size ="2" >
 <b>MOUSE QUEST</b><br><br>
 Dive into Mouse Quest, a thrilling luck-based deck-building adventure!
-<br><br>
+<br>
 Play as a fierce mouse battling your way through a dangerous world. 
 Spin the slots to determine your attacks, but beware - some items have unique abilities that can interact with others. 
 <br>
 As you explore, the deck you build shapes your fate, offering new challenges at every turn. 
 Will you survive the odds?
-<br><br><br>
+<br><br>
 &nbsp; &nbsp; &nbsp; 
 <a href="https://play.google.com/store/apps/details?id=com.orbitalknight.rngrpg&hl=en" target="_blank">
 <img src="Resources/GooglePlayButton.png" width="180" height="54">
@@ -382,7 +400,7 @@ How to play:
 * Reach the end of the labyrinth to progress
 <br>
 Easy to learn controls. Beautiful and colorful visuals.
-<br><br><br><br>
+<br><br><br>
 &nbsp; &nbsp; &nbsp; 
 <a href="https://apps.apple.com/pl/app/splashy-cube-color-run/id1436136401" target="_blank">
 <img src="Resources/AppStoreButton.png" width="180" height="54">
@@ -400,20 +418,14 @@ Easy to learn controls. Beautiful and colorful visuals.
 <font size ="2" >
 <b>Candy Patrol</b><br><br>
 As a part of  an elite candy defense unit, your task it to keep the lollipops safe.
-<br>
 Shoot monsters on sight and don't let them near the candies!
-<br>
 Armored with supersonic slingshot and high-tech gadgets, 
-<br>
 fight your way through space and time and show everyone who is the boss! 
-<br>
 Face a challenge and become the best in Candy Patrol. 
-<br>
 Think quickly and make smart moves to defend all the candies! 
-<br>
 
 Upgrade your equipment with collectable materials, choose the right gadgets for each mission and use your skills to your advantage!
-<br><br><br>
+<br><br><br><br>
 &nbsp; &nbsp; &nbsp; 
 <a href="https://apps.apple.com/pl/app/splashy-cube-color-run/id1436136401" target="_blank">
 <img src="Resources/AppStoreButton.png" width="180" height="54">
@@ -441,7 +453,7 @@ Turn a piece of wood into the given shape.
 Cut (carve), polish, paint and add a stencil to your work.
 <br>
 Earn money and improve your room.
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 &nbsp; &nbsp; &nbsp; 
 <a href="https://play.google.com/store/apps/details?id=com.BallGames.Woodturning&hl=en" target="_blank">
 <img src="Resources/GooglePlayButton.png" width="180" height="54">
@@ -460,5 +472,7 @@ Earn money and improve your room.
 <br><br><br>
 <font size ="2" >
 contact: jacek.kozieja@gmail.com<br><br>
-
+</font>
+</div>
+</body>
 </html>
